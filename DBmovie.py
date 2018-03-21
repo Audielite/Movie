@@ -14,7 +14,6 @@ def print_movie_list(response):
     for i in response['results']:
         print(i['title'])
 
-
 def pick_movie():
     return int(input('Enter number 1 through 5: ')) ##TODO validtaion
 
