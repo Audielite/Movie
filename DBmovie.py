@@ -11,7 +11,6 @@ def movie_api_top_5_movies_request():
     return response
 
 def print_movie_list(response):
-
     for i in response['results']:
         print(i['title'])
 
